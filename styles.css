@@ -1,0 +1,233 @@
+* {box-sizing:border-box ;}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    background-color: rgba(23,23,23,0.15);
+    padding: 20px;
+    position: absolute;
+    top: 0px;
+        
+}
+
+ header .container{display: flex;
+ justify-content: space-between;}
+
+header a{text-decoration:none;
+         margin-right:100px;
+         letter-spacing:1px;
+         color: rgba(255,255,255,0.719);
+         font-family:Tahoma;
+       
+}
+
+.banner-container{
+   
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(19, 111, 182);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center;
+    display: flex;
+    
+}
+.banner-container .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
+}
+.left-section h1{
+    margin-top: 0px;
+    font-size: 40px;
+    color: azure;
+    line-height:18px ;
+}
+.left-section p{
+    margin:0%;
+    font font-size: 14px;
+
+
+
+
+}p{color: antiquewhite;
+letter-spacing: 1px;
+line-height: 20px;
+font-size: small;
+font-family: Georgia, Times, 'Times New Roman', serif
+}
+.left-section{width: 650px;}
+.login{width: 85px;
+    height: 25px;
+background-color: aliceblue;
+padding: 12px,50px;
+color: rgba(20, 110, 255, 0.824);
+
+border: none;
+border-radius: 6px;
+cursor: pointer;
+}
+.right-section{width: 330px;
+    margin: 17px;
+background-color: aliceblue;
+border-radius: 15px;
+padding: 40px,0;
+box-shadow: 0 5px 6px rgba(0,0,0,0.26);}
+.right-section h4{
+    color: rgba(19, 111, 182, 0.804);
+    font-size: 16px;
+    width: 280px;
+    margin: auto;
+    margin-bottom: 40px;
+    top: 14px;
+    position: relative;
+
+
+    
+}
+.input-group{
+    width:260px;
+
+    font-size: 14px;
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;    
+    position: relative;
+}
+.input-group label{
+    color: rgba(165,165,165);
+    
+    position: absolute;
+    top: 6px;
+    transition: 0.5s ease-in-out;
+    color: rgba(19, 111, 182, 0.804);
+    
+}
+     
+.input-group input{border: none;}
+img{
+    width:90px;
+    height:200px
+}
+.input-group input{
+    border: none;
+    padding: 7px;
+    outline: none;
+    border-bottom: 2px solid rgba(53, 129, 251, 0.674);
+}
+.input-group input:focus ~ label,
+.input-group input:valid ~ label
+{ color: rgba(20, 110, 255, 0.824);
+top: -20px;
+}
+        .alu  {background-color: rgba(20, 110, 255, 0.824);
+                width: 250px;
+                height: 30px;
+                border-radius: 7px;
+                border: none;
+                cursor: pointer;
+                color: rgb(234, 234, 234);
+                font-weight: bold;
+                }
+                
+           
+                .section-two{
+                    display: flex;
+                    justify-content: space-evenly;
+                    height: 100vh;
+                    align-items: center;
+                }
+
+               .card-container h1{
+                color: rgba(136,136,136);
+               }
+                
+.card-container{
+    width: 28%;
+    height: 100hv;
+    font-size: 7px;
+    text-align: center;
+    border-radius: 15px;
+     box-shadow: 10px 5px 26px rgb(96, 96, 96);
+     overflow: hidden;
+      
+   
+    
+    
+}
+
+.image-container{
+    width: 280px;
+    height: 60%;
+    overflow bottom: hidden;
+  
+
+}
+
+.card-container img{
+    width: 130%;
+    height: 70%;
+    display: flex;
+    object-fit: cover;
+    transition: 0.5s ease-in-out;}
+
+.image-container img:hover{
+    transform:scale(1.1);
+    overflow: hidden;
+
+}
+
+
+/* secton three*/
+
+.section-three{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-evenly;
+    font-size: 7px;
+    margin-bottom: 0%;
+    
+}
+
+
+.card-container2 {
+    width: 28%;
+    height: 50%;
+    border-radius: 15;
+    box-shadow: 10px 5px 26px rgba(96,96,96);
+    text-align: center;
+    overflow: hidden; 
+    border-radius: 15px;
+    
+}
+
+.section-three h1{
+    margin-top: 90px;
+    color: rgba(136,136,136);
+}
+
+.card-container2 img{
+    width: 130%;
+    height: 145%;
+    overflow: hidden;
+    
+}
+
+/* section-three end*/
+
+footer{
+    margin: 50px;
+    text-align: center;
+    color: rgba(96,96,96);
+}
+span{
+    font-weight: bold;
+    color:rgba(20, 110, 255, 0.824);
+}
+
